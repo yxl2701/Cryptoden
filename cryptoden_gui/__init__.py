@@ -1,0 +1,1 @@
+"""Cryptoden GUI package metadata."""

@@ -1,0 +1,84 @@
+{
+  "provider": "ollama",
+  "api_key": "",
+  "api_base": "http://localhost:11434/v1",
+  "model": "qwen3.6-35B-A3B:latest",
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "system_prompt": "你是一个CTF加解密助手，帮助用户解决密码学问题。请用中文回答。",
+  "history": [],
+  "providers": {
+    "openai": {
+      "name": "OpenAI",
+      "api_base": "https://api.openai.com/v1",
+      "models": [
+        "gpt-3.5-turbo",
+        "gpt-4",
+        "gpt-4-turbo",
+        "gpt-4o",
+        "gpt-4o-mini"
+      ],
+      "api_key": ""
+    },
+    "deepseek": {
+      "name": "DeepSeek",
+      "api_base": "https://api.deepseek.com/v1",
+      "models": [
+        "deepseek-chat",
+        "deepseek-coder"
+      ]
+    },
+    "sensenova": {
+      "name": "SenseNova (商汤)",
+      "api_base": "https://token.sensenova.cn/v1",
+      "models": [
+        "sensenova-u1-fast",
+        "sensenova-6.7-flash-lite"
+      ],
+      "api_key": ""
+    },
+    "modelscope": {
+      "name": "ModelScope (魔塔社区)",
+      "api_base": "https://api-inference.modelscope.cn/v1",
+      "models": [
+        "deepseek-ai/DeepSeek-V4-Flash",
+        "deepseek-ai/DeepSeek-R1-0528",
+        "deepseek-ai/DeepSeek-V3.2",
+        "Qwen/Qwen3-235B-A22B",
+        "Qwen/Qwen3-32B",
+        "Qwen/Qwen3-14B",
+        "Qwen/Qwen3-8B",
+        "Qwen/QwQ-32B",
+        "Qwen/QVQ-72B-Preview",
+        "Qwen/Qwen3.5-122B-A10B",
+        "ZhipuAI/GLM-5",
+        "ZhipuAI/GLM-4.7-Flash",
+        "ZhipuAI/GLM-5.1",
+        "MiniMax/MiniMax-M2.7",
+        "moonshotai/Kimi-K2.5",
+        "stepfun-ai/Step-3.5-Flash",
+        "mistralai/Mistral-Large-Instruct-2407",
+        "LLM-Research/Llama-4-Maverick-17B-128E-Instruct"
+      ]
+    },
+    "ollama": {
+      "name": "Ollama (本地)",
+      "api_base": "http://localhost:11434/v1",
+      "models": [
+        "llama3",
+        "llama3:8b",
+        "llama3:70b",
+        "qwen2",
+        "qwen2:7b",
+        "codellama",
+        "mistral"
+      ],
+      "api_key": ""
+    },
+    "custom": {
+      "name": "自定义API",
+      "api_base": "",
+      "models": []
+    }
+  }
+}

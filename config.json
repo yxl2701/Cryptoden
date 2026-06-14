@@ -1,0 +1,40 @@
+{
+  "font_size": 12,
+  "font_family": "Microsoft YaHei",
+  "theme": "light",
+  "auto_copy": false,
+  "auto_swap": false,
+  "input_bg_color": "#FFFFFF",
+  "output_bg_color": "#F5F5F5",
+  "param_bg_color": "#FAFAFA",
+  "menu_bg_color": "#FFFFFF",
+  "menu_text_color": "#333333",
+  "menu_hover_bg": "#E3F2FD",
+  "menu_selected_bg": "#BBDEFB",
+  "status_bg_color": "#F0F0F0",
+  "recursive_decrypt": {
+    "max_depth": 10,
+    "max_workers": 8,
+    "max_tasks": 1000,
+    "max_results_per_depth": 50,
+    "max_total_attempts": 20000,
+    "max_display_results": 100,
+    "brute_force_small_keyspaces": true,
+    "custom_features": [],
+    "disabled_builtin_features": []
+  },
+  "enabled_algorithm_tabs": {
+    "RSA": true,
+    "ECC": false,
+    "LCG": false,
+    "AES": true,
+    "DES": false,
+    "3DES": false,
+    "Blowfish": false,
+    "RC4": false,
+    "ChaCha20": false,
+    "Twofish": false,
+    "Fernet": false,
+    "XOR": false
+  }
+}

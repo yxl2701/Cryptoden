@@ -1,0 +1,54 @@
+{
+  "description": "Safe cleanup rules for generated files only. The cleanup script previews by default and deletes only with --apply.",
+  "directories": [
+    "__pycache__",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".hypothesis",
+    ".tox",
+    ".nox",
+    "htmlcov",
+    "build",
+    "dist",
+    "cryptoden.egg-info",
+    "logs"
+  ],
+  "file_patterns": [
+    "*.pyc",
+    "*.pyo",
+    "*.log",
+    ".coverage",
+    "coverage.xml",
+    "*.tmp",
+    "*.bak",
+    "*.orig",
+    "test_*.txt",
+    "_fix_cli*.py"
+  ],
+  "files": [
+    "config/decrypt_records.json"
+  ],
+  "protected_paths": [
+    "README.md",
+    "USER_MANUAL.md",
+    "DEVELOPMENT_MANUAL.md",
+    "LICENSE",
+    "requirements.txt",
+    "setup.py",
+    "pyproject.toml",
+    "MANIFEST.in",
+    "Cryptoden.spec",
+    "cleanup.py",
+    "cleanup_config.json",
+    "algorithms",
+    "agent",
+    "config",
+    "core",
+    "cryptoden",
+    "cryptoden_gui",
+    "gui",
+    "tests",
+    "utils"
+  ]
+}

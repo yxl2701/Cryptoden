@@ -1,0 +1,29 @@
+include README.md
+include LICENSE
+include USER_MANUAL.md
+include DEVELOPMENT_MANUAL.md
+include CONTRIBUTING.md
+include SECURITY.md
+include CHANGELOG.md
+include requirements.txt
+include cleanup.py
+include cleanup_config.json
+include build.bat
+include Cryptoden.spec
+include .env.example
+include config.json
+include algorithm_tabs_config.json
+include sagemath_config.json
+include sagemath_config.example.json
+include cryptoden_icon.png
+include agent/agent_config.json
+include config/ai_config.json
+include config/__init__.py
+recursive-include algorithms *.py
+recursive-include core *.py
+recursive-include gui *.py
+recursive-include utils *.py
+recursive-include tests *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[cod]
+exclude config/decrypt_records.json

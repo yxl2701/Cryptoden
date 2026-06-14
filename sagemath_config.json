@@ -1,0 +1,8 @@
+{
+  "sage_type": "online",
+  "local_path": "",
+  "wsl_distro": "Ubuntu",
+  "wsl_path": "/usr/bin/sage",
+  "online_url": "https://sagecell.sagemath.org/",
+  "auto_detect": true
+}

@@ -1,0 +1,97 @@
+{
+  "tabs": [
+    {
+      "name": "RSA",
+      "category": "非对称密码",
+      "desc": "RSA加密/解密及攻击工具",
+      "type": "rsa",
+      "enabled": true
+    },
+    {
+      "name": "ECC",
+      "category": "非对称密码",
+      "desc": "椭圆曲线密码工具",
+      "type": "ecc",
+      "enabled": false
+    },
+    {
+      "name": "LCG",
+      "category": "非对称密码",
+      "desc": "线性同余生成器攻击工具",
+      "type": "lcg",
+      "enabled": false
+    },
+    {
+      "name": "AES",
+      "category": "对称密码",
+      "desc": "AES加密/解密（128/192/256位）",
+      "type": "symmetric",
+      "algorithm": "AES-128",
+      "enabled": true
+    },
+    {
+      "name": "DES",
+      "category": "对称密码",
+      "desc": "DES加密/解密",
+      "type": "symmetric",
+      "algorithm": "DES",
+      "enabled": false
+    },
+    {
+      "name": "3DES",
+      "category": "对称密码",
+      "desc": "三重DES加密/解密",
+      "type": "symmetric",
+      "algorithm": "3DES",
+      "enabled": false
+    },
+    {
+      "name": "Blowfish",
+      "category": "对称密码",
+      "desc": "Blowfish加密/解密",
+      "type": "symmetric",
+      "algorithm": "Blowfish",
+      "enabled": false
+    },
+    {
+      "name": "RC4",
+      "category": "对称密码",
+      "desc": "RC4流密码加密/解密",
+      "type": "symmetric",
+      "algorithm": "RC4",
+      "enabled": false
+    },
+    {
+      "name": "ChaCha20",
+      "category": "对称密码",
+      "desc": "ChaCha20流密码加密/解密",
+      "type": "symmetric",
+      "algorithm": "ChaCha20",
+      "enabled": false
+    },
+    {
+      "name": "Twofish",
+      "category": "对称密码",
+      "desc": "Twofish加密/解密",
+      "type": "symmetric",
+      "algorithm": "Twofish",
+      "enabled": false
+    },
+    {
+      "name": "Fernet",
+      "category": "对称密码",
+      "desc": "Fernet对称加密/解密",
+      "type": "symmetric",
+      "algorithm": "Fernet",
+      "enabled": false
+    },
+    {
+      "name": "XOR",
+      "category": "对称密码",
+      "desc": "XOR异或加密/解密",
+      "type": "symmetric",
+      "algorithm": "XOR",
+      "enabled": false
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "permission_mode": "command",
+  "workspace_root": ".",
+  "max_tool_calls": 20,
+  "max_tool_calls_workspace_full": 40,
+  "max_single_tool_result_chars": 20000,
+  "max_total_tool_result_chars": 120000,
+  "max_search_results": 100,
+  "max_list_entries": 500,
+  "max_agent_steps": 30,
+  "max_read_file_bytes": 1048576,
+  "require_confirmation_for_command": true,
+  "require_confirmation_for_mcp": true,
+  "enabled_command_tools": [
+    "run_command"
+  ],
+  "enabled_mcp_tools": [
+    "run_command",
+    "list_files",
+    "read_file",
+    "write_file",
+    "search_text",
+    "web_search"
+  ],
+  "mcp_servers": {},
+  "allowed_commands": [
+    "pytest",
+    "python cli.py list",
+    "python cli.py --version"
+  ],
+  "ignored_paths": [
+    "__pycache__",
+    ".pytest_cache",
+    "build",
+    "dist",
+    "*.egg-info",
+    "logs",
+    ".git"
+  ],
+  "protected_paths": [
+    "agent/agent_config.json",
+    "config/ai_config.json",
+    ".env",
+    "agent/config.py",
+    "agent/policy.py",
+    "agent/tools.py",
+    "agent/mcp.py",
+    "agent/runtime.py",
+    "agent/permission_request.py"
+  ]
+}
