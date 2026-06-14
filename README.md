@@ -1,3 +1,6 @@
+**Language / 语言：**
+[中文](README.md) | [English](README_EN.md)
+
 # Cryptoden - CTF 密码学 AI 加解密工具
 
 Cryptoden 是一个面向 CTF 密码学题目的 Python 工具箱，提供图形界面和命令行两种使用方式。
